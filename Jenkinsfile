@@ -8,6 +8,11 @@ pipeline {
                 git branch: 'master', url: 'https://github.com/Bhaskark99/sbi'
             }
         }
+        stage('Set Permissions') {
+            steps {
+                sh 'chmod +x tel.sh'
+            }
+        }
        
         stage('Test shell scripts') {
             steps {
