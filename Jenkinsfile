@@ -11,7 +11,7 @@ pipeline {
        
         stage('Test shell scripts') {
             steps {
-               sh './tes.sh'
+               sh './tel.sh'
             }
         }
     
