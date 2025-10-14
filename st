@@ -1,3 +1,3 @@
-string name="bhaskar"
+hhstring name="bhaskar"
 bhaskar
 kishore
